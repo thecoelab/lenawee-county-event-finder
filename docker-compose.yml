@@ -3,7 +3,7 @@ services:
   app:
     image: thecoelab/lenawee-event-finder:1.0.0
     ports:
-      - "3000:3000"
+      - "3000:3005"
     environment:
       - VITE_GEMINI_API_KEY=${VITE_GEMINI_API_KEY}
     restart: unless-stopped
