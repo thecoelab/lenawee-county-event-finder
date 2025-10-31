@@ -1,0 +1,5 @@
+{
+  "name": "Lenawee County Event Finder",
+  "description": "An application that scours the internet for interesting activities and events happening in Lenawee County, Michigan, and presents them in a user-friendly, filterable interface.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    image: ghcr.io/thecoelab/lenawee-event-finder:1.0.0
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_GEMINI_API_KEY=${VITE_GEMINI_API_KEY}
+    restart: unless-stopped
